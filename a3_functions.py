@@ -121,6 +121,8 @@ def analyzeData(tdata, vocab, dcount, fcount, alpha, trace_file):
     print("Analyzing test data for: " + trace_file)
     print("=============\n")
     vlen = len(vocab)
+    print(vlen)
+
     wcount_len = 0
     is_factlen = 0
     no_factlen = 0
@@ -323,3 +325,4 @@ def analyzeData(tdata, vocab, dcount, fcount, alpha, trace_file):
         recall_fact_text + "  " + recall_fake_text + "\n" + 
         f1_fact_text + "  " + f1_fake_text
     )
+    eval_file.close()
