@@ -6,6 +6,7 @@ Victor Soledad
 A3
 Naive Bayes bag-of-Word (NB-BOW)
 A single python script runs the script
+
 requires covid_test_public.tsv and covid_training.tsv datasets on the root
 
 Main python script requires the a3_functions.py file
